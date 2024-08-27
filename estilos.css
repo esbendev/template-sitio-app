@@ -1,0 +1,47 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main>*{
+    /* border: 1px solid black; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.img-logo{
+    width: 100px;
+}
+
+.h1-titulo{
+    margin-top: .5rem;
+}
+
+.p-descripcion{
+    max-width: 300px;
+    text-align: center;
+    margin: 1rem;
+}
+
+.boton-descarga{
+    background-color: black;
+    color: white;
+    padding: .5rem 2rem;
+    margin: .6rem;
+}
+
+.links-redes{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.links-redes > a{
+    padding: .4rem 1rem;
+}
